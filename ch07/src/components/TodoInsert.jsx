@@ -11,7 +11,7 @@ function TodoInsert({ onInsert }) {
 
    const onSubmit = useCallback(
       (e) => {
-         onInsert(value)
+         onInsert(value) // 할일 등록
          setValue('') // value 값 초기화
 
          // submit 이벤트는 브라우저에서 새로고침을 발생시킵니다.
@@ -28,6 +28,7 @@ function TodoInsert({ onInsert }) {
             <IoMdAddCircleOutline />
          </button>
       </form>
+      // 이곳도 경로 참고하십쇼
    )
 }
 

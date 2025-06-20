@@ -9,6 +9,7 @@ function TodoList({ todos, onRemove, onToggle }) {
             <TodoListItem todo={todo} key={todo.id} onRemove={onRemove} onToggle={onToggle} />
          ))}
       </div>
+      // 경로는 이곳을 보십쇼
    )
 }
 

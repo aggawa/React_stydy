@@ -1,0 +1,13 @@
+Component, Reducer, store 파일 만들기
+Component는 jsx로 만들쟈
+
+1. Component를 일부 (기본적인 틀) 작성
+2. Reducer 작성
+3. store작성 - 작성한 Reducer를 store에 저장
+4. Provider에서 store제공
+5. Component에서 dispatch를 사용해 호출 후
+  useSelector를 사용해 store에 저장된 state값 가져오기
+ state가 바뀌면 컴포넌트 재렌더링 발생
+
+
+체크퀴즈

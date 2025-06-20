@@ -1,0 +1,24 @@
+const todo = {
+            id: nextId.current, // 처음값은 4 (useRef)
+            text, // text: text
+            checked: false,
+         }
+
+         ↑ 불러온 값
+
+const todo = {
+            id: nextId.current, // 처음값은 4 (useRef)
+            text, // text: text
+            checked: false,
+            checked: true,
+         }
+
+         ↑ checked 새로 추가 / 중복된 checked는 후에 선언된 값이 저장
+
+const todo = {
+            id: nextId.current, // 처음값은 4 (useRef)
+            text, // text: text
+            checked: true,
+         }
+
+         ↑ 최종적으로 toggleTodos에 저장되어 setTodos에 의해 todos에 저장되는 값
